@@ -1,0 +1,30 @@
+{
+    "name": "zxcvbnm456/echo-php",
+    "description": "Test project",
+    "type": "library",
+    "homepage": "https://github.com/delias-silva/echo-php",
+    "license": "MIT",
+    "version": "1.0.0",
+    "config": {
+        "platform": {
+            "php": "8.0"
+        }
+    },
+    "require": {
+        "php": ">=8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Echo\\": [
+                "src/echo/"
+            ]
+        }
+    },
+    "repositories": [
+        {
+          "type": "composer",
+          "url": "https://packagist.org"
+        },
+        { "packagist": false }
+    ]
+}
